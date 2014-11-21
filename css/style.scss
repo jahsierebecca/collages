@@ -1,8 +1,58 @@
+
+html {
+	height: 100%;
+}
+
 body { 
+	height: 100%;
 	padding-top: 50px; 
 	position: relative;
 }
 
+#carousel {
+	max-height: 80vh;
+}
+
+#contact {
+	p {
+	background-color: red;
+	background-size: auto;
+	color: white;
+	display: block;
+  max-width: 100%;
+  height: auto;
+}
+}
+
+.navbar {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	padding-left: 20px;
+	background-color: #333230; 
+	border: 0;	
+	.navbar-brand {
+		color: white;
+	}
+}
+
+.navbar-default .navbar-nav>li>a {	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: grey;
+} 
+
+form {
+		font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	padding: 20px;
+	color: #333230;
+	background-color: grey;
+
+}
 /*
 #first {}
 
